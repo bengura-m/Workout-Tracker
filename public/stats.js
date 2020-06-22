@@ -1,3 +1,6 @@
+const express = require("express");
+const router = express.Router();
+
 // get all workout data from back-end
 
 fetch("/api/workouts/range")
