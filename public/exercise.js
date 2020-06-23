@@ -13,7 +13,7 @@ const completeButton = document.querySelector("button.complete");
 const addButton = document.querySelector("button.add-another");
 const toast = document.querySelector("#toast");
 const newWorkout = document.querySelector(".new-workout"); 
-const router = express.Router();
+
 
 let workoutType = null;
 let shouldNavigateAway = false;
@@ -156,5 +156,3 @@ document
   .querySelectorAll("input")
   .forEach(element => element.addEventListener("input", validateInputs));
 
-
-  module.exports = router;
