@@ -12,11 +12,11 @@ Below are screenshots of my page and code for review:
 
 ### Screenshot of the WorkOut page ###
 
-![Screenshot of the website](assets/workout.png)
+![Screenshot of the website](assets/workout.PNG)
 
 ### Screenshot of the Server Code ###
 
-![Screenshot of the HTML Code](assets/servercode.png)
+![Screenshot of the HTML Code](assets/servercode.PNG)
 
 ## Built With ##
 
