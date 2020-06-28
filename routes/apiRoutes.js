@@ -3,7 +3,7 @@ const db = require("../models");
 const path = require("path");
 const express = require('express');
 const app = express();
-const router = express.Router();
+const router = require("express").Router();
 
 //routes
 

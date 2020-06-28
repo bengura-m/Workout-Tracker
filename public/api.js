@@ -13,7 +13,7 @@ const API = {
   },
   async addExercise(data) {
     const id = location.search.split("=")[1];
-
+    console.log(id);
     const res = await fetch("/api/workouts/" + id, {
       method: "PUT",
       headers: { "Content-Type": "application/json" },
@@ -21,7 +21,7 @@ const API = {
     });
 
     const json = await res.json();
-
+    console.log(json);
     return json;
   },
   async createWorkout(data = {}) {

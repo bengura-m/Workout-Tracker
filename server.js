@@ -19,10 +19,12 @@ app.get('/', (req, res) => {
   res.send('exercise')
 });
 
-mongoose.connect('process.env.MONGODB_URI',
+mongoose.connect('mongodb://localhost/workout',
 { useNewUrlParser: true},
-  ()=>
+  ()=> {
+  //console.log(process.env.MONGODB_URI)
   console.log('connected to DB!')
+  }
 );
 
 app.listen(PORT, function() {
